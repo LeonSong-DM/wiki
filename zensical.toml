@@ -7,7 +7,6 @@
 # ============================================================================
 
 [project]
-
 site_name = "Wiki L"
 site_description = "A new project generated from the default template project."
 site_author = "LeonSong"
@@ -47,7 +46,9 @@ nav = [
         ]},
 
         {"SQLAlchemy" = [
-            "python/SQLAlchemy/index.md"
+            "python/SQLAlchemy/index.md",
+            "python/SQLAlchemy/sqlalchemy_core.md",
+            "python/SQLAlchemy/sqlalchemy_orm.md"
         ]},
 
         {"HTTPX" = [
@@ -81,6 +82,10 @@ nav = [
         {"Operate System" = "computer_basic/operate_system/index.md"},
         {"Computer Network" = "computer_basic/computer_network/index.md"},
         {"Data Structure" = "computer_basic/data_structure/index.md"},
+        {"Linux" = [
+            "computer_basic/linux/index.md",
+            "computer_basic/linux/decompression_and_compression.md"
+            ]},
         
         ]},
 
