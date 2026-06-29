@@ -18,7 +18,7 @@ nav = [
 
     {"Python" = [
         "python/index.md",
-
+        
         {"PythonPro" = [
             "python/PythonPro/index.md"
         ]},
@@ -57,7 +57,8 @@ nav = [
 
         {"UV" = [
             "python/uv/index.md"
-        ]}
+        ]},
+        "python/loguru.md",
     ] },
 
     {"Rust" = ["rust/index.md"]},
